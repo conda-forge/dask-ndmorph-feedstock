@@ -14,14 +14,15 @@ Summary: A library of N-D morphological operations for Dask Arrays
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dask-ndmorph-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-ndmorph-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dask-ndmorph-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dask-ndmorph-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dask-ndmorph-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dask-ndmorph-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dask-ndmorph-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dask-ndmorph-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-ndmorph/badges/version.svg)](https://anaconda.org/conda-forge/dask-ndmorph)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-ndmorph/badges/downloads.svg)](https://anaconda.org/conda-forge/dask-ndmorph)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--ndmorph-green.svg)](https://anaconda.org/conda-forge/dask-ndmorph) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-ndmorph.svg)](https://anaconda.org/conda-forge/dask-ndmorph) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-ndmorph.svg)](https://anaconda.org/conda-forge/dask-ndmorph) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-ndmorph.svg)](https://anaconda.org/conda-forge/dask-ndmorph) |
 
 Installing dask-ndmorph
 =======================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
